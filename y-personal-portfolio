@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Personal Portfolio</title>
+        <script src="https://kit.fontawesome.com/f5014619d3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="tohead">
+            <div id="header">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </div>
+            <div id="head">
+                <h1>Hello, This is <span>MANAM.YASASWINI</span></h1>
+                <h2>Undergraduate student at SRM University</h2>
+                <h2>Web Developer</h2>
+            
+            </div>
+        </div>
+        <div id="about">
+            <h1 id="a1">About Me</h1>
+            <div id="inabout">
+                <p id="a1">
+                    <h2>"I am Yasaswini Manam, a diligent student pursuing my Bachelor of Technology in Computer Science and Engineering at SRM University.</h2>
+                    <h2> With an impressive intermediate score of 85%, I showcase my dedication and commitment to academic excellence.</h2>
+                    <h2>I'm dedicated to exploring new horizons and embracing challenges.</h2>
+                    <h2> My pursuit of knowledge in the dynamic field of computer science reflects my passion for technology and innovation.</h2>
+                    <h2> With my determination and strong academic background, I am poised to make significant contributions in the realm of computer science and engineering.</h2>
+                    <h2>I admire leadership qualities and aspire to develop them further.</h2>
+                    <h2>My goal is to make a positive impact in the world through my passion for technology.</h2>
+                </p>
+            </div>
+        </div>
+        
+        <div id="work">
+            <h1 id="w1">WORK</h1>
+            <div id="work1">
+                <div class="work-item">
+                    <h2>History and Heritage</h2>
+                    <p>Passionate for preserving and promoting cultural heritage through active engagement and education.</p>
+                </div>
+                
+                <div class="work-item">
+                    <h2>NPTEL Python Course</h2>
+                    <p>Achieved elite medal in "The Joy of Computing Using Python" course by NPTEL.</p>
+                </div>
+            </div>
+        </div>
+        
+    <div id="skills">
+        <h1 id="s1">SKILLS</h1>
+        <div id="skill-icons">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h2>HTML</h2>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h2>CSS</h2>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <h2>Javascript</h2>
+            </div>
+            <div class="skill">
+                <i class="fab fa-python"></i>
+                <h2>Python</h2>
+            </div>
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h2>C/C++</h2>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h2>DBMS</h2>
+            </div>
+            <div class="skill">
+                <i class="fas fa-cubes"></i>
+                <h2>Data Structures</h2>
+            </div>
+            <div class="skill">
+                <i class="fas fa-object-group"></i>
+                <h2>OOPS</h2>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p>Mobile:6309844678</p>
+            <p>Email: <a href="yasaswini_manam@srmap.edu.in">yasaswini_manam@srmap.edu.in</a></p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/your-linkedin-id" class="fab fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/your-github-id" class="fab fa-github" target="_blank"></a>
+        </div>
+    </footer>
+        <style>
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #5c54e8, #e549e5, hsla(206, 42%, 53%, 0.824), #a70513, #6cb52c);
+    color: #3f6f84;
+}
+            span{
+                color: rgb(81, 81, 81);
+
+            }
+        #work1{
+            height: 400px;
+            width:100%;
+            font-size: 1.3rem;
+            float:left;
+            display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            grid-gap:40px;
+            margin-top: 50px;
+            
+        }
+            #header{
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                gap:40px;
+                list-style: none;
+                justify-content: end;
+                margin-right: 20px;
+                font-size: 2.5rem;
+                padding-right:50px;
+                a {
+                    text-decoration: none;
+                    color:#14492d6c;
+                    font-size: 30px;
+                    position: relative;
+                }
+                a::after {
+                    content: '';
+                    width: 0%;
+                    height: 3px;
+                    background-color: #dfae10;
+                    position: absolute;
+                    left: 0;
+                    bottom: -6px;
+                    transition: 0.3s;
+                }
+                a:hover::after {
+                    width: 100%;
+                }
+
+                text-decoration: none;
+                height:40px;
+                color: rgba(240, 248, 255, 0.785);
+                width:100%;
+            }
+           #contact,#work,#skills{
+                padding-top: 130px;
+                height:600px;
+                width:100%;
+                display: inline-block;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                color: #8d8484d5;
+                flex-direction: row;
+            }
+            #about{
+                padding-top: 130px;
+                height:600px;
+                width:100%;
+                display: inline-block;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                color: #a73b3bd5;
+                flex-direction: row;
+            }
+            #cc,#fc,#cs,#np{
+                height: 200px;
+                width:200px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(90, 155, 155);
+                background: #4e905b;
+                padding: 40px;
+                font-size: 15px;
+                font-weight: 400;
+                border-radius:8px ;
+                transition:background 0.5s,transform 0.5s;
+            }
+            .contact{
+                height:200px;
+                width:100%;
+                padding-left: 70px;
+            }
+            .sub-contact {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                font-size: 17px;
+                i {
+                    padding-right: 10px;
+                    color: #806b29;
+                }
+                a {
+                    color: rgb(170, 132, 132);
+                    text-decoration: none;
+                }
+                margin-bottom: 30px;
+            }
+            
+            .social-media {
+                a {
+                    color: #dfae10;
+                    text-decoration: none;
+                    margin-right: 15px;
+                    font-size: 50px;
+                }
+                margin-bottom: 50px;
+            }
+            #cc:hover{
+                background:  #dcb125;
+                transform: translate(-10px);
+            }
+            #np1:hover{
+                background:  #3e8a31;
+                transform: translate(-10px);
+            }
+            #np:hover{
+                background: #1c7c59;
+                transform: translate(-10px);
+            }
+            #fc:hover{
+                background:  #2d2d85;
+                transform: translate(-10px);
+            }
+            #cs:hover{
+                background:  #84448a;
+                transform: translate(-10px);
+            }
+            #name,#email{
+                height:20px;
+                width:15%;
+                justify-content: center;
+                border-radius: 50px;
+                text-decoration: none;
+                padding: 10px;
+            }
+            #msg{
+                width:15%;
+                height:30px;
+                justify-content: center;
+                border-radius: 50px;
+                text-decoration: none;
+                padding: 10px;
+            }
+            #submit{
+                margin-top: 30px;
+                padding: 20px;
+                font-size: large;
+                background-color:  #5f8d92;
+                border-radius: 40px;
+                align-items: center;
+                text-decoration: none;
+                border:none;
+            }
+            #submit:hover{
+                background-color: #44ac49;
+            }
+            #c1,#w1,#s1{
+                text-align: center;
+                color: #dfae10;
+                font-size: 3rem;
+            }
+            #a1{
+                text-align: center;
+                color: #7ae90b;
+                font-size: 3rem;
+            }
+           
+            #head2{
+                height:150px;
+                width:30%;
+                float:50%;
+                align-items: center;
+                background-color: rgb(158, 162, 82);
+            }
+            #head{
+                align-items: center;
+                height:400px;
+                width:39%;
+                float:right;
+                padding: 20px;
+                margin-top: 160px;
+                margin-left: 500px;
+                color: rgb(158, 95, 95);
+            }
+            #skills {
+        padding: 50px 0;
+    }
+
+    #skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .skill {
+        text-align: center;
+        color: white;
+        width: 150px;
+    }
+
+    .skill i {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .skill h2 {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        background-color: #414144;
+        color: white;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-bottom: 20px;
+    }
+
+    .contact-info h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .contact-info p {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+
+    .social-media a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 0 10px;
+        transition: color 0.3s;
+    }
+
+    .social-media a:hover {
+        color: #dfae10;
+    }
+
+    .work-item {
+    background-color: #7f7a7a;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(27, 22, 22, 0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.work-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(148, 70, 70, 0.929);
+}
+
+
+
+            
+    </style>
+    </body>
+</html>
